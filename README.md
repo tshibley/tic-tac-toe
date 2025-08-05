@@ -1,12 +1,59 @@
-# React + Vite
+# Tic-Tac-Toe Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the tic-tac-toe coding challenge! This is a React application that implements a classic tic-tac-toe game.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Open your browser** and navigate to the URL shown in the terminal (usually `http://localhost:5173`)
+
+## The Challenge
+
+This tic-tac-toe game has some issues that need to be identified and fixed. Your task is to:
+
+1. **Run the application** and play a few games to understand how it works
+2. **Identify the bugs** by testing different scenarios and edge cases
+3. **Fix the bugs** you find
+4. **Test your fixes** to ensure the game works correctly
+
+## What to Look For
+
+- Test the basic game functionality (placing X's and O's)
+- Try the "New Game" button
+- Play complete games and check win detection
+- Test edge cases and unusual scenarios
+- Look for visual issues with the game board
+
+## Development Tips
+
+- Use the browser's developer tools to inspect the application
+- Check the console for any error messages
+- Test systematically - try different game scenarios
+- Don't be afraid to explore the code structure
+
+## Project Structure
+
+```
+src/
+├── App.jsx          # Main game component
+├── App.css          # Game styling
+├── main.jsx         # Application entry point
+└── index.css        # Global styles
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+Good luck with the challenge!
